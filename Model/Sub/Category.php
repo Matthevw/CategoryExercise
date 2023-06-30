@@ -75,7 +75,7 @@ class Category
     public function getCategory() {
         $collection = $this->categoryCollection->create()->addAttributeToSelect('*')->getData();
 
-        print(print_r($collection,true)); die;
+        print(print_r($collection,true));
     }
 
     public function getCategoryById() {
